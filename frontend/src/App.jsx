@@ -1,6 +1,7 @@
 import "./App.css";
 import Banner from "./components/Banner";
 import Card from "./components/Card";
+import ContactUS from "./components/ContactUs";
 import Dishes from "./pages/Dishes";
 import Login from "./pages/Login";
 import RegisterPage from "./pages/Registes";
@@ -12,6 +13,7 @@ function App() {
       {/* <Login/> */}
       <Banner />
       <Dishes />
+      <ContactUS/>
     </>
   );
 }
